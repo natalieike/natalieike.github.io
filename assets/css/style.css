@@ -1,0 +1,103 @@
+body{
+	background-color: #b3d9ff;
+	font-family: 'Droid Serif', serif;
+}
+
+.navbar{
+	background-color: #e6f2ff;
+	color: #000d1a;
+}
+
+.navbar-brand{
+	font-size: 38px;
+	font-family: 'Abril Fatface', cursive;
+}
+
+.jumbotron{
+	background-color: #e6f2ff;
+	color: #000d1a;
+	overflow: auto;
+	margin-top: 7%;
+}
+
+.panel-heading{
+	background-color: #004d99;
+	color: #ffffff;
+	font-size: 20px;
+}
+
+hr{
+	background-color: #004d99;
+	height: 5px;	
+}
+
+.well, .panel-body{
+	background-color: #e6f2ff;
+	color: #000d1a;
+	overflow: auto;	
+}
+
+.btn{
+	background-color: #004d99;
+	color: #ffffff;
+}
+
+.searchTermsBtn{
+	margin: 10px;
+}
+
+.imgClass {
+	margin: 20px;
+	overflow: auto;
+	display: inline-block;
+}
+
+.results-p {
+	margin-top: 10px;
+}
+
+.btn-custom{
+	margin-top: 8px;
+	margin-left: 10px;
+}
+
+.icon{
+	height: 30px;
+}
+
+.profilePic{
+	height: 300px;
+	border-radius: 30px;
+	box-shadow: 10px 10px 5px darkgrey;
+}
+
+.portfolioPic{
+	height: 200px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px darkgrey;
+}
+
+.portfolioPic:active {
+  box-shadow: 5px 5px 5px lightgrey;
+}	
+
+.portfolioPic:hover {
+	opacity: .8;
+  box-shadow: 10px 10px 5px darkgrey;
+}	
+
+.portfolioIcon{
+	height: 100px;
+	margin-left: 5%;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px darkgrey;
+}
+
+.portfolioIcon:active {
+  box-shadow: 5px 5px 5px lightgrey;
+}	
+
+.portfolioIcon:hover {
+	opacity: .8;
+  box-shadow: 10px 10px 5px darkgrey;
+}	
