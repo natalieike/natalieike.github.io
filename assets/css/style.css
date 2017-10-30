@@ -1,6 +1,16 @@
 body{
+	height: 100%;
 	background-color: #b3d9ff;
 	font-family: 'Droid Serif', serif;
+}
+
+.bg{
+	background-image: url(../images/glassRods1.JPG);
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .navbar{
