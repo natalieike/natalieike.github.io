@@ -1,33 +1,38 @@
+/*
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Courgette', cursive;
+*/
+
 body{
 	height: 100%;
 	background-color: #b3d9ff;
-	font-family: 'Droid Serif', serif;
+  font-family: 'Roboto', sans-serif;
 }
 
-.bg{
+.big{
 	background-image: url(../images/glassRods1.JPG);
-	height: 100%;
-	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-.navbar{
-	background-color: #e6f2ff;
+	border-radius: 20%;
 	color: #000d1a;
+	margin-bottom: 1%;
+	height: 500px;
+	width: 100%;
 }
 
-.navbar-brand{
-	font-size: 38px;
-	font-family: 'Abril Fatface', cursive;
+.small-left{
+	background-color: #b3d9ff;
+	width: 50%;
+	height: 100%;
+	background: radial-gradient(circle at 0% 0%, #b3d9ff 45%, #000 0%, transparent 0%);
+	color: #004d99;
+	padding: 2% 0% 0% 5%;
+  font-family: 'Courgette', cursive;
 }
 
-.jumbotron{
-	background-color: #e6f2ff;
-	color: #000d1a;
-	overflow: auto;
-	margin-top: 5%;
+.contact{
+	margin-right: 1%;	
 }
 
 .panel-heading{
@@ -36,13 +41,16 @@ body{
 	font-size: 20px;
 }
 
-.downloadBtn{
-	color: #ffffff;	
+.hr-short{
+	background-color: #004d99;
+	height: 3px;	
+	width: 25%;
+	margin-left: 0%;
 }
 
 hr{
 	background-color: #004d99;
-	height: 3px;	
+	height: 3px;		
 }
 
 .well, .panel-body{
@@ -104,18 +112,16 @@ hr{
 }	
 
 .portfolioIcon{
-	height: 50px;
+	height: 30px;
 	margin: 0% 5% 0% 5%;
 	border-radius: 20px;
-	box-shadow: 5px 5px 5px lightgrey;
-	border: solid 1px lightgrey;
 }
 
 .portfolioIcon:active {
-  box-shadow: 5px 5px 5px lightgrey;
+  box-shadow: 5px 5px 5px grey;
 }	
 
 .portfolioIcon:hover {
 	opacity: .8;
-  box-shadow: 10px 10px 5px darkgrey;
+  box-shadow: 3px 3px 3px darkgrey;
 }	
